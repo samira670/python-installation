@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Install Python and Jupyter Notebook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #555;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .code {
+            background: #eaeaea;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>How to Install Python and Jupyter Notebook</h1>
+        
+        <h2>Step 1: Download Python</h2>
+        <p>Go to the official Python website to download the latest version of Python:</p>
+        <p><a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a></p>
+
+        <h2>Step 2: Install Python on Windows</h2>
+        <ol>
+            <li>Open the downloaded Python installer.</li>
+            <li>Check the box that says "Add Python to PATH".</li>
+            <li>Click on "Install Now".</li>
+        </ol>
+        <p>After the installation is complete, you can verify the installation by opening Command Prompt and typing:</p>
+        <div class="code">python --version</div>
+
+        <h2>Step 3: Install Jupyter Notebook</h2>
+        <ol>
+            <li>Open Command Prompt.</li>
+            <li>Install Jupyter Notebook using pip:</li>
+        </ol>
+        <div class="code">pip install jupyter</div>
+        <p>Once the installation is complete, you can start Jupyter Notebook by typing:</p>
+        <div class="code">jupyter notebook</div>
+
+        <h2>Step 4: Install Common Python Libraries</h2>
+        <p>To install some commonly used Python libraries, use the following commands:</p>
+        <ul>
+            <li>Install NumPy:</li>
+            <div class="code">pip install numpy</div>
+            <li>Install Pandas:</li>
+            <div class="code">pip install pandas</div>
+            <li>Install Matplotlib:</li>
+            <div class="code">pip install matplotlib</div>
+            <li>Install Scikit-Learn:</li>
+            <div class="code">pip install scikit-learn</div>
+            <li>Install TorchVision:</li>
+            <div class="code">pip install torchvision</div>
+            <li>Install Timm:</li>
+            <div class="code">pip install timm</div>
+            <li>Install Transformers:</li>
+            <div class="code">pip install transformers</div>
+            <li>Install Optuna:</li>
+            <div class="code">pip install optuna</div>
+        </ul>
+
+        <h2>Step 5: Verify Installation</h2>
+        <p>After installing Python, Jupyter Notebook, and the libraries, open your command line interface (Command Prompt) and type the following commands to verify the installations:</p>
+        <ul>
+            <li>Verify Python installation:</li>
+            <div class="code">python --version</div>
+            <li>Verify Jupyter Notebook installation:</li>
+            <div class="code">jupyter --version</div>
+            <li>Verify NumPy installation:</li>
+            <div class="code">python -c "import numpy; print(numpy.__version__)"</div>
+            <li>Verify Pandas installation:</li>
+            <div class="code">python -c "import pandas; print(pandas.__version__)"</div>
+            <li>Verify Matplotlib installation:</li>
+            <div class="code">python -c "import matplotlib; print(matplotlib.__version__)"</div>
+            <li>Verify Scikit-Learn installation:</li>
+            <div class="code">python -c "import sklearn; print(sklearn.__version__)"</div>
+            <li>Verify TorchVision installation:</li>
+            <div class="code">python -c "import torchvision; print(torchvision.__version__)"</div>
+            <li>Verify Timm installation:</li>
+            <div class="code">python -c "import timm; print(timm.__version__)"</div>
+            <li>Verify Transformers installation:</li>
+            <div class="code">python -c "import transformers; print(transformers.__version__)"</div>
+            <li>Verify Optuna installation:</li>
+            <div class="code">python -c "import optuna; print(optuna.__version__)"</div>
+        </ul>
+
+        <h2>Step 6: Import Libraries in Python</h2>
+        <p>To use the installed libraries in your Python scripts or Jupyter Notebooks, you can import them as follows:</p>
+        <div class="code">
+            from sklearn.model_selection import StratifiedKFold<br>
+            import torch<br>
+            from torch import nn, optim<br>
+            from torch.utils.data import DataLoader, random_split<br>
+            from torchvision import datasets, transforms<br>
+            import timm<br>
+            import numpy as np<br>
+            import matplotlib.pyplot as plt<br>
+            from sklearn.metrics import precision_recall_fscore_support, roc_curve, auc<br>
+            import optuna<br>
+        </div>
+        <p>By importing these libraries, you can utilize their functionalities in your Python projects and Jupyter Notebooks.</p>
+    </div>
+</body>
+</html>
